@@ -1,0 +1,81 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  align-items: center;
+}
+body {
+  font-family: "Endless Love", cursive;
+  background: linear-gradient(to left, #d8b5ff, #8bccee);
+}
+.header {
+align-content: center;
+border: solid 2px black;
+font-size: 2em;
+padding: 10px;
+text-align: center;
+}
+.input {
+  display: grid;
+  width: auto;
+  margin: 30px;
+  font-size: 1.2em;
+}
+.typetask {
+  float: left;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+  font-family: Lato, sans-serif;
+}
+.typetask:hover {
+  background-color: lavender;
+}
+#addButton {
+  border-radius: 20px;
+padding: 10px;
+outline: none;
+transition: all 0.5s ease-in-out;
+font-family: Lato, sans-serif;
+}
+#addButton:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px pink;
+}
+.taskcontainer {
+  width: 80%;
+  font-family: Calibri, sans-serif;
+  font-size: 1.2em;
+}
+.tasks {
+  margin: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 5px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  height: auto;
+  transition: box-shadow 0.5s ease-in-out;
+}
+.tasks:hover {
+  box-shadow: 5px 5px 10px pink;
+}
+.fa-check-square {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  transition: all 0.5s ease-in-out;
+}
+.fa-check-square:hover {
+  color: blue;
+  box-shadow: 2px 2px 5px lightgray;
+}
+.fa-trash {
+  text-align: right;
+display: inline-flex;
+flex-direction: row-reverse;
+margin: 5px;
+}
