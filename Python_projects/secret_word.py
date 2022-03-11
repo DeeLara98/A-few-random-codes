@@ -1,3 +1,5 @@
+import random 
+
 def secret_number():
     secret = random.randint(1, 100)
     guessed = False
